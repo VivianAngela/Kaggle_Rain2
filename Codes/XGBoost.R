@@ -104,7 +104,6 @@ train <- as.data.frame(subset(train, select=-c(Id, target)))
 ## loading test data
 test <- fread(path_test)
 
-
 # creating all the features
 test$dt <- time_difference(test$minutes_past)
 test$mp <- marshall_palmer(test$Ref)
