@@ -2,7 +2,6 @@
 
 ## Code: Base Model - XGBoost
 ## Authors: Pietro Marinelli and Rohan Rao
-## Position: 30th
 
 ## loading libraries
 library(data.table)
@@ -11,8 +10,8 @@ library(zoo)
 
 
 ## setting parameters (edit these to your paths)
-path_train <- "/Volumes/External SD/Kaggle/Rain2/Raw/train.csv"
-path_test <- "/Volumes/External SD/Kaggle/Rain2/Raw/test.csv"
+path_train <- "./train.csv"
+path_test <- "./test.csv"
 
 
 ## function for time difference

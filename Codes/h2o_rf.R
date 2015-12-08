@@ -10,8 +10,8 @@ library(h2o)
 
 
 ## setting parameters (edit these to your paths)
-path_train <- "/Volumes/External SD/Kaggle/Rain2/Raw/train.csv"
-path_test <- "/Volumes/External SD/Kaggle/Rain2/Raw/test.csv"
+path_train <- "./train.csv"
+path_test <- "./test.csv"
 
 # h2o RF
 nthreads <- -1
